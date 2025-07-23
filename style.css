@@ -314,7 +314,7 @@ p {
 .sub-heading {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: -1px;
-    font-weight: 200;
+    font-weight: bold;
     /* border: 1px solid white; */
 }
 
