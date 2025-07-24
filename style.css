@@ -10,7 +10,7 @@
 
 .d2 {
     width: 100%;
-    height: 60vh;
+    height: 55vh;
     background-image: url(images/bg-lg2.jpg);
     background-size: cover;
 
@@ -26,7 +26,10 @@
 }
 
 @media (min-width:768px) {
-
+    .d2{
+        width: 100%;
+        height: 45vh;
+    }
     .frontpage {
         width: 100%;
         height: 100%;
@@ -39,6 +42,8 @@
     .Heading {
         padding-top: 20px;
         width: 60%;
+        background-color: rgba(0, 0, 0, 0.438);
+        border-radius: 20px;
         position: relative;
         left: 120px;
         /* border: 1px solid white; */
@@ -907,6 +912,7 @@ p {
 
     .address {
         height: 100%;
+        padding-bottom: 10px;
     }
 
     .add-sec {
@@ -925,7 +931,7 @@ p {
 
 .d8 {
     width: 100%;
-    height: 130vh;
+    /* height: 130vh; */
     background-color: rgb(0, 0, 0);
     /* border: 1px solid white; */
 }
@@ -963,29 +969,30 @@ p {
     /* border:1px solid white; */
 }
 .end-box{
-    width: 100%;
+    width: 80%;
     height: 25%;
     /* border: 1px solid white; */
 }
 .last-box{
     width: 100%;
     height: 40%;
+    /* border: 1px solid white; */
 }
 .end-list  li a{
-  list-style: none;
+  list-style-type: none;
   color: rgba(255, 255, 255, 0.89);
   text-decoration: none;
 }
 .end-list li:visited{
     color: rgba(255, 255, 255, 0.884);
 }
-.end-sec1{
+.last-box1{
     width: 100%;
     height: 50%;
     border-bottom: 1px solid rgba(128, 128, 128, 0.726);
     /* border: 1px solid white; */
 }
-.end-sec2{
+.last-box2{
     width:100%;
     height: 50%;
     border-bottom: 1px solid rgba(128, 128, 128, 0.61);
@@ -997,4 +1004,27 @@ p {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: -1px;
     margin-bottom: 10px;
+}
+@media (min-width:768px) {
+    
+ .end-sec2{
+    display: flex;
+    border-bottom: 1px solid gray;
+ }
+ .last-box{
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid white; */
+}
+ .last-box2{
+    width:100%;
+    height: 50%;
+    /* border-bottom: 1px solid rgba(128, 128, 128, 0.61); */
+}
+}
+.footer-sec{
+    width: 100%;
+    background-color: black;
+    color: rgba(128, 124, 124, 0.966);
+    text-align: center;
 }
