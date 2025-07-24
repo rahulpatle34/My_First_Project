@@ -953,6 +953,12 @@ p {
     height: 25px;
     margin: 10px;
 }
+.social-icon:hover{
+    background-color: blue;
+}
+.yu:hover{
+    background-color: rgba(255, 0, 0, 0.801);
+}
 .fb-img{
     width: 22px;
     height: 22px;
@@ -1027,4 +1033,67 @@ p {
     background-color: black;
     color: rgba(128, 124, 124, 0.966);
     text-align: center;
+}
+
+/* About section */
+
+.container-fluid{
+    width: 100%;
+}
+.about-front{
+    width: 100%;
+    height: 55vh;
+    background-image: url(images/about.jpg);
+    background-size: cover;
+}
+.about-head{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-main-head{
+    width: 60%;
+    height: 30%;
+    color: white;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.61);
+    text-align: center;
+    /* border: 1px solid white; */
+}
+@media (min-width:768px) {
+    
+    .about-front{
+    height: 60vh;
+}
+.about-main-head{
+    width: 40%;
+    height: 20%;
+}
+}
+@media (min-width:1024px) {
+    
+.about-front{
+    height: 100vh;
+}
+.about-main-head{
+    width: 35%;
+    height: 15%;
+}
+}
+.youtube-video{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.about-info{
+    width: 100%;
+    height: 60vh;
+    color: aliceblue;
+    background-color: black;
 }
