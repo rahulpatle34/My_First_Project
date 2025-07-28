@@ -370,7 +370,7 @@ p {
 }
 
 .weightlift:hover {
-    transform: scaleX(1.1);
+    transform: translate(3px,3px);
     transition: 1s;
 }
 
@@ -380,10 +380,6 @@ p {
     border-radius: 10px;
 }
 
-.offer-img:hover {
-    transform: translate(5px);
-    transition-duration: 1s;
-}
 
 .offer-head {
     width: 100%;
@@ -444,7 +440,7 @@ p {
 }
 
 .cardio:hover {
-    transform: scaleX(1.1);
+    transform: translate(3px,3px);
     transition: 1s;
 }
 
@@ -464,7 +460,7 @@ p {
 }
 
 .kettlebell:hover {
-    transform: scaleX(1.1);
+    transform: translate(3px,3px);
     transition: 1s;
 }
 
@@ -477,7 +473,7 @@ p {
 }
 
 .boxing:hover {
-    transform: scaleX(1.1);
+    transform: translate(3px,3px);
     transition: 1s;
 }
 
@@ -1356,6 +1352,11 @@ footer{
     background-image: url(images/servises.jpg);
     background-size: cover;
 }
+@media (min-width:1024px) {
+    .service-front{
+        height: 100vh;
+    }
+}
 .service-head{
     width: 100%;
     height: 100%;
@@ -1384,13 +1385,99 @@ footer{
 }
 .service-info{
     width: 100%;
-    height: 200vh;
-    padding-left: 20px;
+    /* height: 250vh; */
+    padding: 10px;
     background-color: black;
 }
 .service-head-sec{
-    width: 90%;
-    height: 10%;
+    width: 100%;
+    /* height: 10%; */
     text-align: center;
     /* border: 1px solid white; */
+}
+.service-info-sec{
+    width: 100%;
+    /* padding: 10px; */
+    /* height: 90%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    /* border: 1px solid white; */
+}
+.service{
+    width: 100%;
+    margin: 10px;
+    /* height: 30%; */
+    /* border: 1px solid white; */
+}
+.service-top{
+    width: 100%;
+    height: 40%; 
+    padding: 10px;
+    /* border: 1px solid white; */
+}
+
+.service-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.service-img:hover{
+    transform: rotate(2deg);
+}
+.service-bottom{
+    width: 100%;
+    height: 60%;
+    padding: 25px;
+    background-color: rgba(34, 33, 33, 0.753);
+}
+.service-bottom:hover{
+    background-color: rgba(27, 27, 27, 0.829);
+}
+
+.explo{
+    text-decoration: none;
+    color: aliceblue;
+}
+.explo:hover{
+    text-decoration: underline;
+    color: orangered;
+}
+@media (min-width:768px) {
+
+.service{
+    width: 100%;
+    /* height: 30%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.service-top{
+    width: 50%;
+    height: 100%; 
+    margin-right: 10px;
+    /* padding: 20px; */
+    /* border: 1px solid white; */
+}
+.service-bottom{
+    width: 50%;
+    height: 100%;
+    padding: 25px;
+    /* background-color: rgba(34, 33, 33, 0.753); */
+}
+.service-info-sec{
+    width: 80%;
+    /* height: 90%; */
+    /* border: 1px solid white; */
+}
+.service-info{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
 }
