@@ -1615,7 +1615,7 @@ footer {
 
 .contact {
     width: 100%;
-    /* height: 100%; */
+    height: 100%;
     /* border: 1px solid white; */
 
 }
@@ -1627,7 +1627,7 @@ input {
     color: aliceblue;
     background-color: black;
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 10px;
     outline: none;
     border: 1px solid gray;
 
@@ -1641,11 +1641,13 @@ input:focus {
 .comment {
     width: 100%;
     height: 20%;
+    padding: 30px;
 }
 
 .contact-submit-button {
     width: 100%;
     height: 10%;
+    padding: 10px;
     border: none;
     background-color: orangered;
     color: aliceblue;
