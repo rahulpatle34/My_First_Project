@@ -1347,7 +1347,8 @@ td {
     background-size: cover;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 22px;
-    border: 1px solid white;
+    /* border-top: 1px solid white; */
+    /* border-left: 1px solid white; */
 }
 
 .class-table td {
